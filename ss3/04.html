@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Form Thu thập thông tin Căn cước công dân</h3>
+
+<form action="" method="post">
+    <label for="ho_ten">Họ và tên:</label>
+    <input type="text" id="ho_ten" name="ho_ten"><br><br>
+
+    <label for="ngay_sinh">Ngày sinh:</label>
+    <input type="date" id="ngay_sinh" name="ngay_sinh"><br><br>
+
+    <span>Giới tính:</span>
+    <input type="radio" id="nam" name="gioi_tinh" value="nam"> <label for="nam">Nam</label>
+    <input type="radio" id="nu" name="gioi_tinh" value="nu"> <label for="nu">Nữ</label>
+    <br><br>
+
+    <label for="cccd">Số căn cước công dân:</label>
+    <input type="text" id="cccd" name="so_cccd"><br><br>
+
+    <label for="ngay_cap">Ngày cấp:</label>
+    <input type="date" id="ngay_cap" name="ngay_cap"><br><br>
+
+    <label for="noi_cap">Nơi cấp:</label>
+    <input type="text" id="noi_cap" name="noi_cap"><br><br>
+
+    <label for="sdt">Số điện thoại:</label>
+    <input type="tel" id="sdt" name="sdt"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="thuong_tru">Địa chỉ thường trú:</label>
+    <textarea id="thuong_tru" name="dia_chi_thuong_tru"></textarea><br><br>
+
+    <label for="tam_tru">Địa chỉ tạm trú:</label>
+    <textarea id="tam_tru" name="dia_chi_tam_tru"></textarea><br><br>
+
+    <span>Loại căn cước công dân:</span>
+    <input type="radio" id="cccd_moi" name="loai_cccd" value="moi"> <label for="cccd_moi">Căn cước công dân mới</label>
+    <input type="radio" id="cccd_cu" name="loai_cccd" value="cu"> <label for="cccd_cu">Căn cước công dân cũ</label>
+    <br><br>
+
+    <label for="dan_toc">Dân tộc:</label>
+    <input type="text" id="dan_toc" name="dan_toc"><br><br>
+
+    <label for="ton_giao">Tôn giáo:</label>
+    <input type="text" id="ton_giao" name="ton_giao"><br><br>
+
+    <label for="quoc_tich">Quốc tịch:</label>
+    <input type="text" id="quoc_tich" name="quoc_tich" value="Việt Nam"><br><br>
+
+    <label for="cha_me">Họ tên cha/mẹ:</label>
+    <input type="text" id="cha_me" name="ho_ten_cha_me"><br><br>
+
+    <label for="cccd_cha_me">Số CMND/CCCD của cha/mẹ:</label>
+    <input type="text" id="cccd_cha_me" name="cccd_cha_me"><br><br>
+
+    <label for="tinh_thanh">Tỉnh/Thành phố:</label>
+    <select id="tinh_thanh" name="tinh_thanh">
+        <option value="">Chọn Tỉnh/Thành phố</option>
+        <option value="hn">Hà Nội</option>
+        <option value="hcm">TP. Hồ Chí Minh</option>
+    </select><br><br>
+
+    <button type="submit">Gửi thông tin</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Hãy sử dụng các thẻ HTML để tạo ra trang web như sau:</h3>
+
+<form action="" method="post">
+    <label for="ho_ten">Họ và tên:</label>
+    <input type="text" id="ho_ten" name="ho_ten" style="width: 250px;"><br><br>
+
+    <label for="ngay_sinh">Ngày sinh:</label>
+    <input type="date" id="ngay_sinh" name="ngay_sinh"><br><br>
+
+    <span>Giới tính:</span>
+    <input type="radio" id="nam" name="gioi_tinh" value="nam"> <label for="nam">Nam</label>
+    <input type="radio" id="nu" name="gioi_tinh" value="nu"> <label for="nu">Nữ</label>
+    <br><br>
+
+    <label for="sdt">Số điện thoại:</label>
+    <input type="tel" id="sdt" name="sdt" style="width: 250px;"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" style="width: 250px;"><br><br>
+
+    <label for="ten_cty">Tên công ty:</label>
+    <input type="text" id="ten_cty" name="ten_cong_ty" style="width: 250px;"><br><br>
+
+    <label for="vai_tro">Vai trò trong công ty:</label>
+    <select id="vai_tro" name="vai_tro" style="width: 260px;">
+        <option value="ceo">Giám đốc điều hành (CEO)</option>
+        <option value="cto">Giám đốc công nghệ (CTO)</option>
+        <option value="manager">Quản lý</option>
+    </select><br><br>
+
+    <label for="quy_mo">Quy mô công ty:</label>
+    <select id="quy_mo" name="quy_mo" style="width: 260px;">
+        <option value="nho">Doanh nghiệp nhỏ</option>
+        <option value="vua">Doanh nghiệp vừa</option>
+        <option value="lon">Doanh nghiệp lớn</option>
+    </select><br><br>
+
+    <label for="nganh_nghe">Ngành nghề công ty:</label>
+    <input type="text" id="nganh_nghe" name="nganh_nghe" style="width: 250px;"><br><br>
+
+    <label for="ly_do">Lý do tham gia câu lạc bộ:</label>
+    <textarea id="ly_do" name="ly_do" style="width: 300px; vertical-align: top;"></textarea><br><br>
+
+    <label for="kinh_nghiem">Kinh nghiệm lãnh đạo:</label>
+    <textarea id="kinh_nghiem" name="kinh_nghiem" style="width: 300px; vertical-align: top;"></textarea><br><br>
+
+    <label for="muc_tieu">Mục tiêu khi tham gia câu lạc bộ:</label>
+    <textarea id="muc_tieu" name="muc_tieu" style="width: 300px; vertical-align: top;"></textarea><br><br>
+
+    <span>Chương trình sự kiện mong muốn tham gia:</span>
+    <input type="checkbox" id="networking" name="su_kien" value="networking"> <label for="networking">Networking</label>
+    <input type="checkbox" id="workshops" name="su_kien" value="workshops"> <label for="workshops">Workshops</label>
+    <input type="checkbox" id="hoi_thao" name="su_kien" value="hoi_thao"> <label for="hoi_thao">Hội thảo</label>
+    <br><br>
+
+    <label for="ban_tin">Đăng ký nhận bản tin:</label>
+    <input type="checkbox" id="ban_tin" name="nhan_ban_tin" value="co"> <label for="ban_tin">Có</label>
+    <br><br>
+
+    <button type="submit">Đăng ký hội viên</button>
+</form>
+</body>
+</html>

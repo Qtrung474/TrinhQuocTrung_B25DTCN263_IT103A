@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form Đăng ký thành viên</h2>
+
+<h2>Form Đăng ký thành viên</h2>
+
+<form action="" method="post">
+    <label for="ten">Họ và tên:</label>
+    <input type="text" id="ten" name="ho_ten"><br><br>
+
+    <label for="ngay_sinh">Ngày sinh:</label>
+    <input type="date" id="ngay_sinh" name="ngay_sinh"><br><br>
+
+    <span>Giới tính:</span>
+    <input type="radio" id="nam" name="gioi_tinh" value="nam"> <label for="nam">Nam</label>
+    <input type="radio" id="nu" name="gioi_tinh" value="nu"> <label for="nu">Nữ</label>
+    <br><br>
+
+    <label for="sdt">Điện thoại:</label>
+    <input type="tel" id="sdt" name="sdt"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="dia_chi">Địa chỉ:</label>
+    <textarea id="dia_chi" name="dia_chi"></textarea><br><br>
+
+    <label for="vai_tro">Vai trò:</label>
+    <select id="vai_tro" name="vai_tro">
+        <option value="thanh_vien">Thành viên</option>
+        <option value="truong_nhom">Trưởng nhóm</option>
+    </select><br><br>
+
+    <label for="so_thich">Sở thích:</label>
+    <input type="text" id="so_thich" name="so_thich"><br><br>
+
+    <label for="ky_nang">Kỹ năng:</label>
+    <textarea id="ky_nang" name="ky_nang"></textarea><br><br>
+
+    <span>Thời gian rảnh:</span>
+    <input type="checkbox" id="sang" name="ranh_roi" value="sang"> <label for="sang">Sáng</label>
+    <input type="checkbox" id="chieu" name="ranh_roi" value="chieu"> <label for="chieu">Chiều</label>
+    <input type="checkbox" id="toi" name="ranh_roi" value="toi"> <label for="toi">Tối</label>
+    <br><br>
+
+    <label for="ly_do">Lý do tham gia:</label>
+    <textarea id="ly_do" name="ly_do"></textarea><br><br>
+
+    <label for="mau">Màu yêu thích:</label>
+    <input type="color" id="mau" name="mau_yeu_thich"><br><br>
+
+    <input type="checkbox" id="ban_tin" name="nhan_ban_tin"> 
+    <label for="ban_tin">Đăng ký nhận bản tin</label>
+    <br><br>
+
+    <span>Thông báo qua:</span>
+    <input type="radio" id="tb_email" name="kenh_thong_bao" value="email"> <label for="tb_email">Email</label>
+    <input type="radio" id="tb_sms" name="kenh_thong_bao" value="sms"> <label for="tb_sms">SMS</label>
+    <br><br>
+
+    <button type="submit">Đăng ký</button>
+</form>
+</body>
+</html>
