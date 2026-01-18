@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            color: #006666;
+        }
+
+        .form-box {
+            max-width: 450px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            color: #006666;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin: 15px 0 5px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            background: #11a39c;
+            color: white;
+            padding: 12px;
+            border: none;
+            margin-top: 20px;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-box">
+        <h2>Biểu Mẫu Feedback Phòng Khám Nha Khoa</h2>
+
+        <label>Họ và tên</label>
+        <input type="text" placeholder="Nhập họ tên">
+
+        <label>Email</label>
+        <input type="email" placeholder="example@gmail.com">
+
+        <label>Dịch vụ đã sử dụng</label>
+        <select>
+            <option>Khám răng tổng quát</option>
+            <option>Niềng răng</option>
+            <option>Lấy cao răng</option>
+        </select>
+
+        <label>Mức độ hài lòng</label>
+        <select>
+            <option>Rất hài lòng</option>
+            <option>Hài lòng</option>
+            <option>Bình thường</option>
+        </select>
+
+        <label>Nội dung phản hồi</label>
+        <textarea rows="5" placeholder="Hãy cho chúng tôi biết cảm nhận của bạn..."></textarea>
+
+        <button type="submit">Gửi feedback</button>
+    </div>
+
+</body>
+
+</html>
