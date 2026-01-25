@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+.login-container {
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+
+
+    height: auto;
+    max-height: 95vh;
+    overflow-y: auto;
+}
+
+.login-form {
+    padding: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #717171;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555;
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666;
+}
+
+.signup-link a {
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+@media (max-width: 650px) {
+    .login-container {
+        max-width: 95%;
+    }
+
+    .login-form {
+        padding: 30px 20px;
+    }
+}
